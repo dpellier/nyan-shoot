@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:gwt="urn:import:com.google.gwt.user.client.ui">
+
+			<gwt:FlowPanel>
+					<gwt:HTMLPanel>
+					      <div class="topbar-inner">
+					        <div class="container">
+					        	<h3><span style="color:white">Open-data</span></h3>
+					        </div>
+					  </div>
+					</gwt:HTMLPanel>
+					
+				<gwt:SimplePanel ui:field="breadcrumbPanel" />
+				<gwt:SimplePanel ui:field="listPanel" />
+			</gwt:FlowPanel>
+
+</ui:UiBinder>
+
+
