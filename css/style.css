@@ -1,0 +1,25 @@
+.board {
+	border: solid 1px;
+}
+
+.layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.z1 {
+	z-index: 1;
+}
+
+.z2 {
+	z-index: 2;
+}
+
+.score {
+	position: absolute;
+	top: 5px;
+	left: 345px;
+	color: white;
+	z-index: 3;
+}
